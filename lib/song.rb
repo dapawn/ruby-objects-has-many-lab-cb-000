@@ -12,7 +12,7 @@ class Song
     self.artist.name if self.artist
   end
 
-  def song_count
+  def self.song_count
     @@song_count
   end
 
