@@ -8,8 +8,8 @@ class Post
     @@post_count += 1
   end
 
-  def author_title
-    self.author.title if self.author
+  def author_name
+    self.author.name if self.author
   end
 
   def self.post_count
